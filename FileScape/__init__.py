@@ -1,0 +1,1 @@
+from FileScape.core import *
