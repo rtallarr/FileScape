@@ -5,8 +5,9 @@ fileScape is a simple and customizable file organization tool. It helps you sort
 ## Roadmap
 
 - [ ] Add more sorting options (date, size, etc)
+- [ ] Option to make sorting recursive
+- [ ] Option to mute prints
 - [ ] Create CLI commands
-
 
 <!-- ## Features
 
