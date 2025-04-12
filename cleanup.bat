@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 
-:: Search and delete 'dist' and 'build' folders recursively
+:: Search and delete build folders recursively
 for /d %%d in (dist,build,FileScape.egg-info) do (
     if exist "%%d" (
         echo Deleting: "%%d"

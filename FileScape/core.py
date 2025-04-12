@@ -134,7 +134,7 @@ def orderByDate(path) -> None:
             move_file(entry.path, date_folder, entry.name)
 
 def main():
-    path = os.path.join(os.getcwd(), 'test')
+    path = os.path.join(os.getcwd(), 'FileScape/test')
 
     while True:
         option = input("1.- Flatten\n2.- Order by type\n3.- Order by extension\n4.- Order by date\n::: ")
